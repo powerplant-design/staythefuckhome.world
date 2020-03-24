@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@485&display=swap');
-
 :root {
     --color-black: #222222;
     --color-bright: #DEDA55;
@@ -17,7 +15,6 @@ body::-webkit-scrollbar-track {
 body {
     background: var(--color-black);
     color: var(--color-black);
-    font-family: 'Hepta Slab', serif;
     /* width: 100%; */
     height: 90vh;
     display: flex;
@@ -25,7 +22,7 @@ body {
     align-items: center;
 }
 .stfh-img {
-    margin: 1rem;
+    margin: 1.2rem;
 }
 
 img {
