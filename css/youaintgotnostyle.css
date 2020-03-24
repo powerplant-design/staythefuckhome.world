@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@485&display=swap');
+
+:root {
+    --color-black: #1c1c1c;
+    --color-bright: #DEDA55;
+    --color-white: whitesmoke;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--color-white);
+}
+
+  body::-webkit-scrollbar-thumb {
+    background: var(--color-black);
+}
+
+body {
+    background: var(--color-black);
+    color: var(--color-black);
+    font-family: 'Hepta Slab', serif;
+    /* width: 100%; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stfh-img {
+}
+
+img {
+    max-width: 400px;
+
+}
